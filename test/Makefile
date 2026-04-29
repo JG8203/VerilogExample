@@ -6,7 +6,7 @@ SIM ?= icarus
 FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = {bitmap_rom.v palette.v tt_umtinytapeout_dvd_screensaver.v vga_sync_generator.v]
+PROJECT_SOURCES = bitmap_rom.v palette.v tt_um_tinytapeout_dvd_screensaver.v vga_sync_generator.v
 
 ifneq ($(GATES),yes)
 
